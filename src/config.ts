@@ -44,6 +44,31 @@ Do NOT use for language detection only -- use text_detect_language. Do NOT use f
         },
         required: ["text"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "translatedText": {
+              "type": "string",
+              "description": "Translated text"
+            },
+            "sourceLanguage": {
+              "type": "string",
+              "description": "Detected or specified source language"
+            },
+            "targetLanguage": {
+              "type": "string",
+              "description": "Target language"
+            },
+            "confidence": {
+              "type": "number",
+              "description": "Translation confidence"
+            }
+          },
+          "required": [
+            "translatedText",
+            "targetLanguage"
+          ]
+        },
     },
   ],
 };
