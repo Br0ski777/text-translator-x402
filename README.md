@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `text_translate` | POST | `/api/translate` | $0.005 | Translate text between languages with automatic source language detection |
+| `text_translate` | POST | `/api/translate` | $0.012 | Translate text between languages with automatic source language detection |
 
 ### `text_translate`
 
