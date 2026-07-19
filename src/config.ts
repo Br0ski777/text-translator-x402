@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/translate",
-      price: "$0.005",
+      price: "$0.012",
       description: "Translate text between languages with automatic source language detection",
       toolName: "text_translate",
       toolDescription:
